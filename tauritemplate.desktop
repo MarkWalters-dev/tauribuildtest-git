@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=0.0.1
+Name=tauritemplate
+Comment=Tauri hello world
+Exec=tauritemplate
+Type=Application
