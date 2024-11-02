@@ -1,0 +1,22 @@
+pkgbase = tauribuildtest-git
+	pkgdesc = A Tauri App
+	pkgver = 0.0.1
+	pkgrel = 1
+	url = https://github.com/MarkWalters-dev/tauribuildtest
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	makedepends = nodejs
+	makedepends = pnpm
+	makedepends = rust
+	makedepends = cargo
+	depends = webkit2gtk
+	depends = gtk3
+	conflicts = tauribuildtest-bin
+	options = !debug
+	source = tauribuildtest-0.0.1.tar.gz::https://github.com/MarkWalters-dev/tauribuildtest/archive/refs/tags/0.0.1.tar.gz
+	source = tauribuildtest.desktop
+	sha256sums = 8c8375faa6f78817898a318e383a7f828e367689b36d7da4528984b98421a5ab
+	sha256sums = 91a36873e97e6a61f4e6da69bb7497651e96f99de7beb5f3df886bef3dff9381
+
+pkgname = tauribuildtest-git

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=0.0.1
+Name=tauribuildtest
+Comment=A Tauri App
+Exec=tauribuildtest
+Type=Application
